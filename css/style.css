@@ -325,9 +325,9 @@ section{
 .title {
      text-align: center;
 }
-.title h4{
+.title h5{
     color:var(--yellow);
-    font-size: 4rem;
+    font-size: 2.8rem;
     font-weight: bold;
     margin-left: -0.5rem;
     margin-bottom: 1rem;
@@ -341,7 +341,8 @@ section{
 #skills img{
     width: 7rem;
     height: 7rem;
-    margin-top: 1rem;;
+    
+    margin: 1rem;
    
 }
 
@@ -436,6 +437,9 @@ section{
     
 
 }
+#skills {
+    padding: 5%;
+}
 }
 
 @media(max-width:400px){
@@ -443,6 +447,47 @@ section{
     header{
         width:100vw;
     }
+   
+    #about,#eduction,#skill,#home,#project,#certificates,#contect {
+        padding:5% ;
+    }
+    .education{
+        flex-direction: column;
+    }
+    .Cetificates{
+      
+        grid-template-columns: auto ;
+       margin-right: 15%;
     
+   }
+   .education .degree{
+    flex-direction: column;
+}
+#skills .images{
+  
+    grid-template-columns:  auto auto auto;
+   
+}
     
+}
+
+@media(max-width:290px){
+
+    html{
+        font-size: 40%;
+    }
+    #about,#eduction,#skill,#home,#project,#certificates,#contect {
+        padding:5% ;
+        margin-right:4% ;
+    }
+    .Cetificates{
+      
+       margin-right: 15%;
+    
+   }
+   .education .degree{
+       flex-direction: column;
+   }
+
+   
 }
