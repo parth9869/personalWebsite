@@ -216,7 +216,7 @@ section{
     padding-right: 1rem;
     justify-content: center;
     background: #F86565;
-    
+    padding-bottom: 2%;
     width: 100%;
     box-shadow: 7px 7px 3px #333;
 }
@@ -434,7 +434,7 @@ section{
         grid-template-columns: auto ;
        
     
-    
+        margin-right: 15%;
 
 }
 #skills {
@@ -453,7 +453,9 @@ section{
     }
     .education{
         flex-direction: column;
+        padding-left:2%;
     }
+   
     .Cetificates{
       
         grid-template-columns: auto ;
@@ -462,6 +464,9 @@ section{
    }
    .education .degree{
     flex-direction: column;
+}
+.education .degree .details{
+    margin-left: 0;
 }
 #skills .images{
   
@@ -481,13 +486,13 @@ section{
         margin-right:4% ;
     }
     .Cetificates{
-      
-       margin-right: 15%;
+      margin-right: 2rem;
     
    }
-   .education .degree{
-       flex-direction: column;
-   }
+   .education .degree .details{
+    margin-left: 0%;
+}
+
 
    
 }
